@@ -93,7 +93,7 @@ module.exports = {
     ]
   },
   plugins: [
-    new FaviconsWebpackPlugin('./assets/images/favicon.png'),
+    //new FaviconsWebpackPlugin('./assets/images/favicon.png'),
     new CleanWebpackPlugin('dist', {}),
     new HtmlWebpackPlugin({
       inject: false,
