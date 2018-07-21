@@ -1,4 +1,50 @@
 .nav {
   background-color: $mdBl;
-  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__link,
+  &__link:link,
+  &__link:visited {
+    padding: 2rem;
+    color: $wt;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+
+  &__link:hover,
+  &__link:active {
+    color: $mdBl;
+    background-color: $wt;
+  }
+
+  &__link:hover &__svg,
+  &__link:active &__svg {
+    fill: $mdBl;
+  }
+
+  &__svg {
+    width: 3rem;
+    height: 3rem;
+    fill: $wt;
+  }
+
+  &__hamburger {
+    display: none;
+    fill: $wt;
+
+    @media screen and (max-width: 600px) {
+      display: block;
+    }
+  }
 }

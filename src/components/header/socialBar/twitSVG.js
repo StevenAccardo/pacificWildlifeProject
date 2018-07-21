@@ -2,7 +2,7 @@ import React from 'react';
 
 const twitSVG = props => {
   return (
-    <svg className="contactUs__social-icons" xmlns="http://www.w3.org/2000/svg" width="430.117px" height="430.117px" viewBox="0 0 430.117 430.117">
+    <svg className="socialBar__social-icon" xmlns="http://www.w3.org/2000/svg" width="430.117px" height="430.117px" viewBox="0 0 430.117 430.117">
       <path
         id="Twitter__x28_alt_x29_"
         d="M381.384,198.639c24.157-1.993,40.543-12.975,46.849-27.876

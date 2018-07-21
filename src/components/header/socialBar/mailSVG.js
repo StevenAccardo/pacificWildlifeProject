@@ -2,7 +2,7 @@ import React from 'react';
 
 const mailSVG = props => {
   return (
-    <svg className="contactUs__social-icons" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 483.3 483.3">
+    <svg className="socialBar__social-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 483.3 483.3">
       <g>
         <path
           d="M424.3,57.75H59.1c-32.6,0-59.1,26.5-59.1,59.1v249.6c0,32.6,26.5,59.1,59.1,59.1h365.1c32.6,0,59.1-26.5,59.1-59.1

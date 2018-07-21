@@ -2,7 +2,7 @@ import React from 'react';
 
 const fbSVG = props => {
   return (
-    <svg className="contactUs__social-icons" xmlns="http://www.w3.org/2000/svg" width="430.113px" height="430.114px" viewBox="0 0 430.113 430.114">
+    <svg className="socialBar__social-icon" xmlns="http://www.w3.org/2000/svg" width="430.113px" height="430.114px" viewBox="0 0 430.113 430.114">
       <path
         d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805
         c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354

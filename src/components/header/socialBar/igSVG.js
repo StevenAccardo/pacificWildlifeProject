@@ -2,7 +2,7 @@ import React from 'react';
 
 const igSVG = props => {
   return (
-    <svg className="contactUs__social-icons" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
+    <svg className="socialBar__social-icon" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512">
       <g>
         <path
           d="M352,0H160C71.648,0,0,71.648,0,160v192c0,88.352,71.648,160,160,160h192c88.352,0,160-71.648,160-160V160

@@ -1,4 +1,4 @@
-.contactUs {
+.socialBar {
   height: 5rem;
   background-color: $dkBl;
   display: flex;
@@ -7,11 +7,7 @@
   color: $wt;
   font-size: 1.5rem;
 
-  &__hours-phone {
-    display: inline-block;
-  }
-
-  &__social-icons {
+  &__social-icon {
     fill: $wt;
     width: 2rem;
     height: 2rem;

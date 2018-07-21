@@ -1,11 +1,11 @@
 import React from 'react';
-import ContactUs from './contactUs';
-import Navigation from './navigation';
+import SocialBar from './socialBar/socialBar';
+import Navigation from './navigation/navigation';
 
 const Header = props => {
   return (
     <div className="header">
-      <ContactUs />
+      <SocialBar />
       <Navigation />
       <h1>Header</h1>
     </div>
