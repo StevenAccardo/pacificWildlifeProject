@@ -6,7 +6,36 @@
 
   @media screen and (max-width: 600px) {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
+  }
+
+  &__logoHam {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (min-width: 601px) {
+      position: absolute;
+      margin-left: 1rem;
+      left: 0;
+    }
+  }
+
+  &__logo {
+    width: 7rem;
+    height: 7rem;
+
+    @media screen and (max-width: 600px) {
+      margin: 1rem;
+    }
+  }
+
+  &__linkGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+      align-items: stretch;
+    }
   }
 
   &__link,
@@ -20,6 +49,10 @@
     justify-content: center;
     align-items: center;
     font-size: 1.3rem;
+
+    @media screen and (max-width: 600px) {
+      padding: 1rem;
+    }
   }
 
   &__link:hover,
@@ -42,9 +75,12 @@
   &__hamburger {
     display: none;
     fill: $wt;
+    cursor: pointer;
 
     @media screen and (max-width: 600px) {
       display: block;
+      margin-top: 1rem;
+      margin-right: 1rem;
     }
   }
 }

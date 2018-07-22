@@ -12,13 +12,13 @@ const SocialBar = props => {
         <a href="mailto:lmcleod@pacificwildlife.org" className="socialBar__link">
           <MailSVG />
         </a>
-        <a href="https://www.facebook.com/PacificWildlife" className="socialBar__link">
+        <a target="_blank" href="https://www.facebook.com/PacificWildlife" className="socialBar__link">
           <FbSVG />
         </a>
-        <a href="https://www.facebook.com/PacificWildlife" className="socialBar__link">
+        <a target="_blank" href="https://www.facebook.com/PacificWildlife" className="socialBar__link">
           <IgSVG />
         </a>
-        <a href="https://www.facebook.com/PacificWildlife" className="socialBar__link">
+        <a target="_blank" href="https://www.facebook.com/PacificWildlife" className="socialBar__link">
           <TwitSVG />
         </a>
       </span>

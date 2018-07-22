@@ -6,11 +6,18 @@
   align-items: center;
   color: $wt;
   font-size: 1.5rem;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 
   &__social-icon {
-    fill: $wt;
+    fill: $ltGy;
     width: 2rem;
     height: 2rem;
     margin-left: 0.8rem;
+
+    &:hover {
+      fill: $wt;
+    }
   }
 }
