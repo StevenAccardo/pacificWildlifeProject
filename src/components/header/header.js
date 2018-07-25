@@ -7,7 +7,6 @@ const Header = props => {
     <div className="header">
       <SocialBar />
       <Navigation />
-      <h1>Header</h1>
     </div>
   );
 };
