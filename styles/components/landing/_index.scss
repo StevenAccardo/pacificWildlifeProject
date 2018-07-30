@@ -1,5 +1,5 @@
 .carouselContainer {
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -18,16 +18,113 @@
   &__btn {
     text-decoration: none;
     padding: 2rem;
-    background-color: $mdBl;
+    background-color: $ltBl;
     margin-left: 2rem;
     color: $wt;
-    font-size: 1.5rem;
+    font-size: 2rem;
     border-radius: 0.5rem;
     transition: all 0.5s;
 
     &:hover {
       background-color: $wt;
-      color: $mdBl;
+      color: $ltBl;
     }
+  }
+}
+
+.ourPhilo {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  padding: 3rem;
+  color: $dkBl;
+  &__title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  &__philo {
+    font-size: 2rem;
+
+  }
+}
+
+.stats {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  color: $ltBl;
+  margin-bottom: 5rem;
+
+  &__title {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__clock {
+    height: 8rem;
+    width: 8rem;
+    fill: $ltBl;
+  }
+
+  &__clipboard {
+    height: 8rem;
+    width: 8rem;
+    fill: $ltBl;
+  }
+
+  &__pawPrints {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  &__counts {
+    font-size: 4rem;
+    margin-top: 3rem;
+  }
+
+  &__items {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+.affiliates {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $flBl;
+  padding: 2rem 0;
+
+  &__title {
+    font-size: 3rem;
+  }
+
+  &__chewy {
+    height: 8rem;
+    width: 30rem;
+  }
+
+  &__millers {
+    height: 8rem;
+    width: 24rem;
+  }
+
+  &__fleece {
+    height: 8rem;
+    width: 30rem;
   }
 }
