@@ -9,14 +9,6 @@ import Volunteer from './volunteer';
 import Sanctuary from './sanctuary';
 import Education from './education';
 import logo from '../../../../assets/images/logo.png';
-//add hamburger
-//hamburger display none
-//at media query hamburger display
-//onclick hamburger drops menu
-
-//menu disappears at media query
-//shows up on onclick
-//menu items are vertically aligned
 
 class Navigation extends Component {
   constructor(props) {
@@ -39,8 +31,14 @@ class Navigation extends Component {
     return (
       <div className="nav">
         <div className="nav__logoHam">
-          <Link to="/">
-            <img className="nav__logo" src={logo} alt="logo" />
+          <Link className="nav__logoLink" to="/">
+            <div className="nav__logoContainer">
+              <img className="nav__logo" src={logo} alt="logo" />
+              <div className="nav__logoText">
+                <p>Pacific</p>
+                <p>Wildlife Project</p>
+              </div>
+            </div>
           </Link>
           <a onClick={this.onClickHandler} className="navigation__hamburger">
             <Hamburger />

@@ -4,7 +4,11 @@
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 62.5em) {
+    justify-content: flex-end;
+  }
+
+  @media screen and (max-width: 43.75em) {
     flex-direction: column;
     align-items: stretch;
   }
@@ -12,27 +16,51 @@
   &__logoHam {
     display: flex;
     justify-content: space-between;
-    @media screen and (min-width: 601px) {
+    @media screen and (min-width: 701px) {
       position: absolute;
       margin-left: 1rem;
       left: 0;
     }
   }
 
+  &__logoLink:link,
+  &__logoLink:visited {
+    text-decoration: none;
+  }
+
+  &__logoLink:hover &__logoText,
+  &__logoLink:active &__logoText{
+    color: $red;
+  }
+
+  &__logoContainer {
+    display: flex;
+    align-items: center;
+  }
+
   &__logo {
     width: 7rem;
     height: 7rem;
+    padding: .5rem 0;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 43.75em) {
       margin: 1rem;
     }
+  }
+
+  &__logoText {
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    transition: all .5s;
   }
 
   &__linkGroup {
     display: flex;
     justify-content: center;
     align-items: center;
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 43.75em) {
       flex-direction: column;
       align-items: stretch;
     }
@@ -50,7 +78,11 @@
     align-items: center;
     font-size: 1.3rem;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 50em) {
+      padding: 1rem;
+    }
+
+    @media screen and (max-width: 43.75em) {
       padding: 1rem;
     }
   }
@@ -77,7 +109,7 @@
     fill: $wt;
     cursor: pointer;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 43.75em) {
       display: block;
       margin-top: 1rem;
       margin-right: 1rem;

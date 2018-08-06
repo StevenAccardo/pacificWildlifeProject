@@ -3,6 +3,7 @@ import Carousel from './carousel';
 import DonateBanner from './donateBanner';
 import OurPhilo from './ourPhilo';
 import Stats from './stats/stats';
+import ImageBar from './imageBar';
 import Affiliates from './affiliates/affiliates';
 
 export default () => {
@@ -13,6 +14,7 @@ export default () => {
       <OurPhilo />
       <Stats />
       <Affiliates />
+      <ImageBar />
     </div>
   );
 };
