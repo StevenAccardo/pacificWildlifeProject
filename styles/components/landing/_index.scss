@@ -1,5 +1,5 @@
 .carouselContainer {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 
   @media only screen and (max-width: 56.25em) {
@@ -82,6 +82,10 @@
   color: $ltBl;
   margin-bottom: 5rem;
 
+  @media only screen and (max-width: 28.125em) {
+    width: 100%;
+  }
+
   &__title {
     font-size: 3rem;
     margin-bottom: 4rem;
@@ -133,15 +137,39 @@
   justify-content: space-around;
   margin: 2rem 0;
 
+  @media only screen and (max-width: 28.125em) {
+    flex-direction: column;
+  }
+
   &__img {
-    height: 400px;
-    min-width: 20%;
+    height: 40rem;
+    width: 30rem;
     box-shadow: -.5rem .5rem .5rem rgba($blk, 0.5);
     border-radius: .5rem;
+
+    @media only screen and (max-width: 56.25em) {
+      height: 20rem;
+      width: 15rem;
+    }
+
+    @media only screen and (max-width: 28.125em) {
+      height: 40rem;
+      width: 100%;
+    }
   }
 
   &__imgContainer {
     position: relative;
+
+    @media only screen and (max-width: 28.125em) {
+      width: 70%;
+      margin: 1rem auto;
+    }
+
+    @media only screen and (max-width: 21.875em) {
+      width: 95%;
+      margin: 1rem auto;
+    }
   }
 
   &__imgText {
@@ -168,6 +196,11 @@
 
   &__title {
     font-size: 3rem;
+
+    @media only screen and (max-width: 37.5em) {
+      font-size: 6rem;
+      margin-bottom: 3rem
+    }
   }
 
   &__chewy {
@@ -177,6 +210,11 @@
     @media only screen and (max-width: 62.5em) {
       height: 4rem;
       width: 15rem;
+    }
+
+    @media only screen and (max-width: 37.5em) {
+      height: auto;
+      width: 20rem;
     }
   }
 
@@ -188,6 +226,11 @@
       height: 4rem;
       width: 12rem;
     }
+
+    @media only screen and (max-width: 37.5em) {
+      height: auto;
+      width: 20rem;
+    }
   }
 
   &__fleece {
@@ -197,6 +240,11 @@
     @media only screen and (max-width: 62.5em) {
       height: 4rem;
       width: 15rem;
+    }
+
+    @media only screen and (max-width: 37.5em) {
+      height: auto;
+      width: 20rem;
     }
   }
 }
