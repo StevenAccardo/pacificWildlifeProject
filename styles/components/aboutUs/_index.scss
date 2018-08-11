@@ -1,0 +1,57 @@
+.aboutUs {
+  text-align: center;
+  color: $dkBl;
+
+  &__title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  &__statementContainer {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+
+  &__statement {
+    font-size: 1.7rem;
+  }
+
+  &__whatWeDo {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  &__pContainer {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  &__babyPos {
+    height: 20rem;
+    width: 20rem;
+    float: left;
+    margin-right: 2rem;
+    box-shadow: -1rem 1rem 0 0 $ltBl;
+  }
+
+  &__racoonPair {
+    height: 20rem;
+    width: 20rem;
+    float: right;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: -1rem 1rem 0 0 $flBl;
+  }
+
+  &__p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  &__bold {
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+}

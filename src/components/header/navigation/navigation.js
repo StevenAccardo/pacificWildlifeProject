@@ -45,7 +45,7 @@ class Navigation extends Component {
           </a>
         </div>
         <div className={this.state.isOpen ? 'nav__linkGroup' : 'nav__linkGroup hide'}>
-          <Link className="nav__link" to="#">
+          <Link className="nav__link" to="/about">
             <AboutUs />
             <span>About Us</span>
           </Link>
