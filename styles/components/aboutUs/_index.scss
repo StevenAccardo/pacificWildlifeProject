@@ -1,6 +1,7 @@
 .aboutUs {
   text-align: center;
   color: $dkBl;
+  margin-bottom: 8rem;
 
   &__title {
     font-size: 4rem;
@@ -27,7 +28,7 @@
     width: 70%;
   }
 
-  &__babyPos {
+  &__pelRelease {
     height: 20rem;
     width: 20rem;
     float: left;
@@ -43,6 +44,14 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     box-shadow: -1rem 1rem 0 0 $flBl;
+  }
+
+  &__redeye {
+    height: 20rem;
+    width: 20rem;
+    float: left;
+    margin-right: 2rem;
+    box-shadow: -1rem 1rem 0 0 $mdBl;
   }
 
   &__p {
