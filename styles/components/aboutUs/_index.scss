@@ -3,8 +3,13 @@
   color: $dkBl;
   margin-bottom: 8rem;
 
+  @media only screen and (max-width: 50em) {
+    margin-bottom: 4rem;
+  }
+
   &__title {
     font-size: 4rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -12,6 +17,10 @@
     margin: 0 auto;
     width: 50%;
     margin-bottom: 2rem;
+
+    @media only screen and (max-width: 50em) {
+      width: 80%;
+    }
   }
 
   &__statement {
@@ -26,6 +35,10 @@
   &__pContainer {
     margin: 0 auto;
     width: 70%;
+
+    @media only screen and (max-width: 50em) {
+      width: 95%;
+    }
   }
 
   &__pelRelease {
@@ -34,6 +47,13 @@
     float: left;
     margin-right: 2rem;
     box-shadow: -1rem 1rem 0 0 $ltBl;
+    margin-bottom: 1rem;
+
+    @media only screen and (max-width: 50em) {
+      height: 15rem;
+      width: 15rem;
+      margin-right: 1rem;
+    }
   }
 
   &__racoonPair {
@@ -44,6 +64,11 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     box-shadow: -1rem 1rem 0 0 $flBl;
+
+    @media only screen and (max-width: 50em) {
+      height: 15rem;
+      width: 15rem;
+    }
   }
 
   &__redeye {
@@ -51,7 +76,14 @@
     width: 20rem;
     float: left;
     margin-right: 2rem;
+    margin-bottom: 1rem;
     box-shadow: -1rem 1rem 0 0 $mdBl;
+
+    @media only screen and (max-width: 50em) {
+      height: 15rem;
+      width: 15rem;
+      margin-right: 1rem;
+    }
   }
 
   &__p {
@@ -62,5 +94,6 @@
   &__bold {
     font-weight: bold;
     font-size: 1.8rem;
+    color: $ltBl;
   }
 }
